@@ -1,0 +1,7 @@
+@import "./../../sass/consts.scss";
+
+.Layout {
+  height: 100vh;
+  padding-top: $headerHeight;
+  padding-bottom: $footerHeight;
+}

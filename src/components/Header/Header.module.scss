@@ -1,0 +1,14 @@
+@import "../../sass/colors.scss";
+@import "../../sass/consts.scss";
+
+.Header {
+  display: flex;
+  position: fixed;
+  height: $headerHeight;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  background-color: $themeColor;
+}

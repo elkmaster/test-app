@@ -1,0 +1,16 @@
+@import "../../sass/colors.scss";
+@import "../../sass/consts.scss";
+
+.Footer {
+  display: flex;
+  position: fixed;
+  height: $footerHeight;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  background-color: $themeColor;
+  color: white;
+  font-size: 0.7rem;
+}
